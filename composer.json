@@ -1,0 +1,35 @@
+{
+  "name": "code413/laravel-bootstrap",
+  "description": "Bootstrap components as Laravel blade partials",
+  "keywords": [
+    "laravel",
+    "bootstrap",
+    "blade"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt Daneshvar",
+      "email": "matt.daneshvar@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Code413\\LaravelBootstrap\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Code413\\LaravelBootstrap\\LaravelBootstrapServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "laravel/framework": "6.2"
+  }
+}
