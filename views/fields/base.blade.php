@@ -17,6 +17,9 @@
                @if($maxlength ?? null) maxlength="{{ $maxlength }}" @endif
                @if($inputmask ?? null) data-inputmask="{{ $inputmask }}"@endif>
     @endif
+    @if($notes ?? null)
+          <small class="text-muted">{{ $notes }}</small>  
+    @endif
     {{ $after ?? '' }}
     @if($errors->has($name ?? ''))
         <div class="invalid-feedback">
