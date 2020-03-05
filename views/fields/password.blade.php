@@ -1,0 +1,1 @@
+@include('bs::fields.base', ['type' => 'password'])
